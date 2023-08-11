@@ -35,6 +35,7 @@ print(str.replace("the","a"))
 #define the dictionary as frequency_dict
 frequency_dict = {}
 
+
 for letter in str:
     if letter.isalpha():
         letter_lower = letter.lower()  #convert all letter to lower case, so the letters can be seen as same 
